@@ -26,3 +26,13 @@
   - Add rate limiting / production-grade logging
   - Integrate real storage for uploaded files (S3, etc.) if needed
   - Add payment provider (Stripe) if you want online payments
+
+
+ env 
+
+ PORT=5000
+MONGO_URI=mongodb://localhost:27017/mvc_ecommerce
+JWT_SECRET=your_jwt_secret_here
+EMAIL_USER=your_email@example.com
+EMAIL_PASS=your_email_password
+
